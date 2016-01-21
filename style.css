@@ -32,6 +32,7 @@ img:hover {
     position: relative;
     animation-name: img;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
  
