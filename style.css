@@ -13,18 +13,22 @@ h2 {
     
    }
 
-img {
-    transform: translate(200px, 75px);
+img:hover { 
+    transform: rotate(190deg);
      text-align: center;
      width:200px;
-     animation: img 1s linear 0s infinite alternate;
+     animation: img 7s linear 3s infinite alternate;
      
+    
 }
+     
+     
 
-@keyframes img {
- transform: translate(50px,0px)
+ img {
+     transition: width 2s, height 2s, transform 2s;
+
+ 
 }
-
 html {
     height:100%;
     
