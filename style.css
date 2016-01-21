@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: red;
+  text-shadow: 1px 1px 1px;
+    
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    transform: translate(10px,20px); 
+    transition: width 2px;
+    
+   }
+
+img {
+    transform: translate(200px, 75px);
+     text-align: center;
+     width:200px;
+     animation: img 1s linear 0s infinite alternate;
+     
+}
+
+@keyframes img {
+ transform: translate(50px,0px)
+}
+
+html {
+    height:100%;
+    
+}
+
+body {
+     background: linear-gradient(gray, red);
+}
+
