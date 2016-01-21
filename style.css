@@ -15,8 +15,8 @@ h2 {
 
 img:hover { 
     transform: rotate(190deg);
-     text-align: center;
-     width:200px;
+     height:500px;
+     width:500px;
      animation: img 7s linear 3s infinite alternate;
      
     
@@ -25,6 +25,8 @@ img:hover {
      
 
  img {
+     width: 100px;
+    height: 100px;
      transition: width 2s, height 2s, transform 2s;
 
  
