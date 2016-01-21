@@ -17,7 +17,7 @@ img:hover {
     transform: rotate(190deg);
      height:500px;
      width:500px;
-     animation: img 7s linear 3s infinite alternate;
+    
      
     
 }
@@ -25,11 +25,20 @@ img:hover {
      
 
  img {
+   
+     transition: width 2s, height 2s, transform 2s;
      width: 100px;
     height: 100px;
-     transition: width 2s, height 2s, transform 2s;
+    position: relative;
+    animation-name: img;
+    animation-duration: 4s;
+}
 
  
+
+@-webkit-keyframes img {
+     0% { left:0px; top:0px;}
+     25% {left:200px; top:0px;}
 }
 html {
     height:100%;
